@@ -1,0 +1,118 @@
+body{
+  background-color: #393E46;
+}
+
+
+  .backi{
+  background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-business-background-banner-business-website-picture-image_306168.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.backi2{
+background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.backi3{
+background-image: url(https://www.teahub.io/photos/full/105-1050062_1920x1080-data-id-155135-data-src-walls-full.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.dostyle{
+  font-family: cursive;
+
+}
+
+
+.carousel-item{
+
+  height: 500px;
+
+}
+
+
+.left{
+  text-align: right;
+}
+
+.cloud{
+  display: inline-block;
+}
+
+.makeCenter{
+  text-align: center;
+}
+
+
+.logo{
+width: 5%;
+height: 2%;
+border-radius: 100%;
+position: relative;
+right: 4%;
+}
+
+.heading{
+  font-family: cursive;
+  color: green;
+}
+
+.quote{
+  font-family:cursive;
+  font-stretch: expanded;
+  font-style: italic;
+  color: grey;
+
+}
+
+.thumbnailSize{
+  font-size: 4rem;
+}
+
+.big{
+  font-size: 4rem;
+}
+
+text{
+  font-size: 4rem;
+}
+.first{
+  background-color: #A1EAFB;
+}
+
+.second{
+  background-color: #00ADB5;
+
+}
+
+.third{
+  background-color: #FFCEF3;
+}
+
+.fourths{
+  background-color: #CABBE9;
+}
+#guestBookLink{
+  font-family: monospace;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+#guestBookLinkAnchor{
+  text-decoration: none;
+}
+#guestBookSignUp{
+  background-color: black;
+  height:5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#guestBookLink:hover{
+  color:yellow;
+}
+
