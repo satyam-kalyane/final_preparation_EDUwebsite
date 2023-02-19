@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  color:white;
+}
+
+.cot6-container{
+
+  font-family: "Quicksand", sans-serif;
+
+}
+
+#nameLabel{
+  float: left;
+  margin-right: 1rem;
+  width: 15rem;
+
+}
+#emailLabel{
+  float: left;
+  margin-right: 1rem;
+  width: 15rem;
+}
+#cblabel{
+  float: left;
+  height: 4rem;
+  margin-right: 1rem;
+  width: 15rem;
+
+}
+
+#rblabel{
+    float: left;
+    height: 3rem;
+    margin-right: 1rem;
+    width: 15rem;
+}
+#listLabel{
+  /* display: inline-block; */
+  float: left;
+  width: 15rem;
+  margin-right: 1.3rem;
+}
+#improveLabel{
+
+  display: inline-block;
+  width:15rem;
+  margin-right: 1.0rem;
+}
+
+#praiseLabel{
+  display: inline-block;
+  width: 15rem;
+  margin-right: 1.0rem;
+}
+
+textarea{
+  vertical-align: top;
+}
+
+.form-container{
+  margin-top: 1rem;
+  border-style: solid;
+  padding: 1rem;
+}
+input[list]{
+  vertical-align: top;
+}
+
+buttons-container{
+
+    margin-top: 10rem;
+
+}
+button,input[type="reset"]{
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  background-color: #352D2B;
+  color: white;
+  border-radius: 30px;
+}
+
+button:hover,input[type="reset"]:hover{
+
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  background-color: yellow;
+  color: #352D2B ;
+  border-radius: 30px;
+
+}

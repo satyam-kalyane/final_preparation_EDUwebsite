@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Feedback</title>
+  <link rel="stylesheet" href=".\ContributePageStyles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="cot5-container">
+
+    <h1>Feedback form</h1>
+
+    <form id="contributeBookForm" autocomplete="off">
+
+
+      <div class="name-container form-container">
+
+        <label for="cot5-name" id="nameLabel">Name: </label>
+        <input type="text" id="cot5-name" name="cot5-name" value=""><span id="nameError"> </span><br>
+
+      </div>
+
+      <div class="email-container form-container">
+
+        <label for="cot5-email" id="emailLabel">Email ID: </label>
+        <input type="email" id="cot5-email" name="" value=""><span id="emailerror"> </span><br>
+
+      </div>
+
+      <div class="checkbox-container form-container">
+
+        <label id="cblabel">Please Check all that apply: </label>
+        <input type="checkbox" id="choice1" name="choice1" value="I really like your website">
+        <label for="choice1"> I really like your website</label><br>
+        <input type="checkbox" id="choice2" name="choice2" value="One of the best sites I've seen">
+        <label for="choice2"> One of the best sites I've seen</label><br>
+        <input type="checkbox" id="choice3" name="choice3" value="I wish my website looked like yours">
+        <label for="choice3"> I wish my website looked like yours</label><br>
+        <input type="checkbox" id="choice4" name="choice4" value="I have no taste and I'm pretty dense, so your site didn't do much for me">
+        <label for="choice4"> I have no taste and I'm pretty dense, so your site didn't do much for me</label><br />
+
+      </div>
+
+      <div class="radio-container form-container">
+
+        <label id="rblabel">Select the one thing you love best about my website: </label>
+
+        <input type="radio" id="radio1" name="bestAboutSite" value="That gorgeous picture of yours">
+        <label for="radio1">That gorgeous picture of yours</label><br>
+        <input type="radio" id="radio2" name="bestAboutSite" value="The great information">
+        <label for="radio2">The great information</label><br>
+        <input type="radio" id="radio4" name="bestAboutSite" value="The vibe of your website">
+        <label for="radio3">The vibe of your website</label><br>
+
+      </div>
+
+      <div class="list-1-container form-container">
+
+        <label id="listLabel" for="sellComparision">If my website were a book, how many copies would it sell?</label>
+        <input list="sellComparisions" name="sellComparision" id="sellComparision">
+        <datalist id="sellComparisions">
+          <option value="Millions, for sure">
+          <option value="100,000+ (would be Oprah's favourite)">
+          <option value="Thousands (an underappreciated classic)">
+        </datalist>
+        <br>
+        <br>
+
+      </div>
+
+      <div class="list-2-container form-container">
+
+        <label id="improveLabel" for="improvementOpinion">How can I improve my website?</label>
+        <input list="improvementOpinions" id="improvementOpinion" name="improvementOpinion">
+        <datalist id="improvementOpinions">
+
+          <option value="Couldn't be better">
+          <option value="Change the font please">
+          <option value="Please make dark theme, my eye's hurt!">
+
+        </datalist><br>
+
+
+      </div>
+
+      <div class="praiseArea-container form-container">
+
+        <label for="praiseText" id="praiseLabel">Feel free to type more praise, gift offers, etc below: </label>
+        <textarea id="praiseText" name="praiseText" rows="8" cols="80"></textarea>
+
+      </div>
+
+      <div class="buttons-container form-container">
+
+        <button type="button" id="submitButton" name="button">Click Here to Submit</button>
+        <input type="reset" name="reset" value="Erase and Start Over">
+
+      </div>
+
+
+    </form>
+
+
+  </div>
+
+
+
+  <script src=".\contributePageScript.js" charset="utf-8"></script>
+</body>
+
+</html>
